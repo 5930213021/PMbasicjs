@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/5930213021/PMbasicjs.git"
   },
-  "author": "",
+  "author": "Nisarat Saelim",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/5930213021/PMbasicjs/issues"
@@ -19,7 +19,8 @@
   "description": "",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.6"
