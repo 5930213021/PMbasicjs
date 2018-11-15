@@ -99,5 +99,6 @@ describe('fizzbuzz',()=>{
         const number = 100;
         const result = libs.fizzbuzz(number);
         expect(result).toBe("Buzz"); 
+        
     })
 })
