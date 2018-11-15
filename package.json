@@ -16,5 +16,8 @@
   },
   "homepage": "https://github.com/5930213021/PMbasicjs#readme",
   "keywords": [],
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
