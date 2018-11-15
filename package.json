@@ -1,0 +1,20 @@
+{
+  "name": "nodeja-basic",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5930213021/PMbasicjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5930213021/PMbasicjs/issues"
+  },
+  "homepage": "https://github.com/5930213021/PMbasicjs#readme",
+  "keywords": [],
+  "description": ""
+}
