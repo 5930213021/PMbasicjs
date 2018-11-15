@@ -1,8 +1,4 @@
-module.exports.fizzbuzz = numebr  => {
-    if(number %3===0&&numebr%5!=0) return "Buzz";
-    else if(number %5===0&&number%3!==0) return "Fizz";
-    else if(number %5===0&&number%3===0) return "FizzBuzz";
-    else return number;
+module.exports.fizzbuzz = numebr => {
 
     // if(numebr == 1) return 1;
     // if(numebr == 2) return 2;
@@ -13,5 +9,10 @@ module.exports.fizzbuzz = numebr  => {
     // if(numebr == 7) return 7;
     // if(numebr == 8) return 8;
     // if(numebr == 9) return "Fizz";
+
+    if (number % 3 === 0 && numebr % 5 != 0) return "FizzBuzz";
+    if (number % 3 === 0) return "Fizz";
+    if (number % 5 === 0) return "Buzz";
+    return number;
 
 }
