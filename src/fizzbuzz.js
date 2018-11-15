@@ -10,9 +10,9 @@ module.exports.fizzbuzz = numebr => {
     // if(numebr == 8) return 8;
     // if(numebr == 9) return "Fizz";
 
-    if (number % 3 === 0 && numebr % 5 != 0) return "FizzBuzz";
-    if (number % 3 === 0) return "Fizz";
-    if (number % 5 === 0) return "Buzz";
+    if(number%3===0&&numebr%5===0) return "FizzBuzz"
+    if(number%3===0) return "Fizz";
+    if(number%5===0) return "Buzz";
     return number;
 
 }
