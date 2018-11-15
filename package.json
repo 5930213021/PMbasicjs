@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "src/app.js",
   "scripts": {
-    "start" : "node src/app.js",
-    "dev" : "nodemon src/app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "morgan": "^1.9.1"
   },
   "devDependencies": {
+    "jest": "^23.6.0",
     "nodemon": "^1.18.6"
   }
 }
